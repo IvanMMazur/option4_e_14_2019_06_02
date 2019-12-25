@@ -1,0 +1,7 @@
+SELECT nazwa, cena FROM towary WHERE id < 5
+_____________________________________________
+SELECT cena FROM towary WHERE nazwa='cyrkiel'
+_____________________________________________
+SELECT nazwa FROM towary
+_____________________________________________
+SELECT promocja, COUNT(*) as ilosc FROM towary group by promocja
